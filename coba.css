@@ -105,7 +105,7 @@
     width: 100%;
     background-color: #f99;
     /* counter-increment: item; */
-    background-image: url("aabackground.jpg");
+    background-image: url("bg_1.jpg");
   }
   
   .carousel__slide:nth-child(2) {
@@ -115,7 +115,7 @@
 
   .carousel__slide:nth-child(3) {
     background-color: #99f;
-    background-image: url("abc.jpg");
+    background-image: url("bg_6.jpg");
     /* background-image: url("monas.jpg"); */
   }
 
