@@ -8,7 +8,11 @@ body {
     background: #f1f1f1;
 }
 
-/*main utama */
+.clear{
+    clear: both;
+}
+
+/* header */
 .nav {
     width: 100%;
     padding-left: 40px;
@@ -19,6 +23,7 @@ body {
     margin: 0 auto;
     position: fixed;
     z-index: 30;
+    min-width: 950px;
     
 }
 
@@ -37,18 +42,30 @@ body {
 .header-title{
     margin-left: 0;
     padding-top: 90px ;
-    background-image: url(abc.jpg);
+    background-image: url(aaabc.jpg);
     height: 400px;
     width: 100%;
     background-size: cover;
     text-align: center;
     font-size: 35px;
+    min-width: 950px;
 }
+
+.header-title h2{
+    margin-top: 25px;
+  }
+
+/* main utama */
 
 .main-content{
     margin-left: 0px;
-    padding: 30px;
-    
+    padding: 30px;    
+}
+
+.content-left{
+    float: left;
+    width: 70%;
+    height: 550px;
 }
 
 .title-content{
@@ -60,14 +77,8 @@ body {
     font-size: 20px;
 }
 
-.content-left{
-    float: left;
-    width: 70%;
-    height: 550px;
-}
-
 .content-right{
-    width: 300px;
+    width: 25%;
     height: 550px;
     float: right;
     padding-top: 70px;
@@ -88,22 +99,28 @@ body {
     font-size: 25px;
 }
 
+.content-right li:hover{
+    opacity: 0.7;
+}
+
 /*main tambahan*/
 
 .content-tambahan{
+    margin-top: 50px;
     background-color: #f7f7f7;
     text-align: center;
-    height: 600px;
-    padding-top: 600px;
+    height: 800px;
 }
 
 .container{
     width: 100%;
     margin: 0 auto;
     max-width: 1170px;
+    min-width: 950px;
 }
 
 .header-main-tambahan h1{
+    padding-top: 30px;
     font-size: 38px;
     font-weight: 400;
     color: #040E27;
@@ -112,10 +129,10 @@ body {
 .header-main-tambahan p{
     font-size: 24px;
     color: #7A838B;
+    margin-bottom: 50px;
 }
 
 .wadah-kotak{
-    padding: 0 75px;
     display: flex;
     flex-wrap: wrap
 }
@@ -142,18 +159,20 @@ body {
 }
 
 .gambar{
-    width: 300px;
+    width: 350px;
     border-radius: 4px;
 }
 
+/* Footer */
+
 .main-footer{
-    margin-top: 800px;
-    height:400px;
+    height:300px;
     left: 0;
     background-color: teal;
     text-align: center;
     position: absolute;
     width: 100%;
+    min-width: 950px;
 }
 
 .list-sosmed img{
