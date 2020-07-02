@@ -105,23 +105,23 @@
     width: 100%;
     background-color: #f99;
     /* counter-increment: item; */
-    background-image: url("bg_1.jpg");
+    background-image: url("Gambar/bg_1.jpg");
   }
   
   .carousel__slide:nth-child(2) {
     background-color: #99f;
-    background-image: url("bg_3.jpg");
+    background-image: url("Gambar/bg_3.jpg");
   }
 
   .carousel__slide:nth-child(3) {
     background-color: #99f;
-    background-image: url("bg_6.jpg");
+    background-image: url("Gambar/bg_6.jpg");
     /* background-image: url("monas.jpg"); */
   }
 
   .carousel__slide:nth-child(4) {
     background-color: #99f;
-    background-image: url("bg_5.jpg");
+    background-image: url("Gambar/bg_5.jpg");
     /* background-image: url("monas.jpg"); */
   }
   
@@ -234,9 +234,9 @@
   }
   
   .carousel::before {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+    background-image: url("Gambar/triangle_left.png");
   }
   
   .carousel::after {
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+    background-image: url("Gambar/triangle_right.png");
   }
