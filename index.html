@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <script language='JavaScript'>
+    var txt="===== Selamat Datang di Website Kelompok H36 =====";
+    var speed=300;
+    var refresh=null;
+    function action() { document.title=txt;
+      txt=txt.substring(1,txt.length)+ txt.charAt(0);
+      refresh=setTimeout("action()",speed);}action();
+  </script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="#">Paket Wisata</a>
+            <a href="#">Paket Suka-Suka</a>
+            <a href="#">Hubungi Kami</a>
+        </div>
+        <div class="header-title">
+            <h2>PT First Travel</h2>
+            <h3>Biro Wisata Murah & Terpercaya</h3>
+            <p>menjamin perjalanan anda menjadi lebih menyenangkan</p>
+        </div>
+    </header>
+    <div class="main-content">
+      <div class="container">
+        <div class="content-left">
+            <h2 class="title-content">Bali</h2>
+            <img src="background.jpg" width="100%">
+            <p>Surga tropis bagi pencinta pantai, penggemar aktivitas kebugaran, dan penjelajah budaya</p>
+        </div>
+        <div class="content-right">
+            <ul>
+                <li>Asia</li>
+                <li>Eropa</li>
+                <li>Domestik</li>
+                <li>Rohani</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+
+    <!--bagian menu tambahan-->
+    <div class="content-tambahan">
+      <div class="container">
+        <div class="header-main-tambahan">
+            <h1>Destinasi Favorit</h1>
+            <p>Nikmati wisata berbagai tempat seantero nusantara dengan harga miring</p>
+        </div>
+        <div class="wadah-kotak">
+            <div class="kotak">
+                <img class="gambar" src="borobudur.jpg" alt="">
+                <p>Candi Borobudur</p>
+
+            </div>
+            <div class="kotak">
+                <img class="gambar" src="bukitrimpi.jpg" alt="">
+                <p>Bukit Trimpi</p>
+
+            </div>
+            <div class="kotak">
+                <img class="gambar" src="menara.jpg" alt="">
+                <p>Menara Kudus</p>
+
+            </div>
+            <div class="kotak">
+                <img class="gambar" src="monas.jpg" alt="">
+                <p>Monumen Nasional</p>
+
+            </div>
+            <div class="kotak">
+                <img class="gambar" src="parangtritis.jpg" alt="">
+                <p>Pantai Parang Tritis</p>
+
+            </div>
+            <div class="kotak">
+                <img class="gambar" src="bunaken.jpg" alt="">
+                <p>Taman Laut Bunaken</p>
+            </div>  
+        </div>
+    </div>
+    </div>
+
+    <!--Bagian Footer-->
+    <footer>
+      <div class="container">
+        <div class="main-footer">
+          <div class="profil">
+            <h1>PT First Travel</h1>
+            <p>Jalan Pattimura, Blok B, 7</p>
+            <p>Jakarta Pusat, 123456</p>
+            <p>+021-1223344555</p>
+            <p>mail@firstravel.com</p>
+          </div>
+          <div class="list-sosmed">
+            <img src="fb(1).png" height="30">
+            <img src="twitter.png" height="30">
+            <img src="ig.png" height="30">
+            <img src="path.png" height="30">
+            <img src="youtube.png" height="30p">
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
