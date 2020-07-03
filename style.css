@@ -172,7 +172,7 @@ body {
     text-align: center;
     position: absolute;
     width: 100%;
-    /*min-width: 950px;*/
+    min-width: 950px;
 }
 
 .list-sosmed img{
